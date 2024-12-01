@@ -15,7 +15,7 @@ class Sms_clickatell extends App_sms
         $this->api_key = $this->get_option('clickatell', 'api_key');
 
         $this->add_gateway('clickatell', [
-            'info'    => "<p>Clickatell SMS integration is one way messaging, means that your customers won't be able to reply to the SMS.</p><hr class='hr-10'>",
+            'info'    => "<p>A integração do Clickatell SMS é uma mensagem unilateral, o que significa que seus clientes não poderão responder ao SMS.</p><hr class='hr-10'>",
             'name'    => 'Clickatell',
             'options' => [
                 [
