@@ -21,7 +21,7 @@ class Sms_msg91 extends App_sms
         $this->add_gateway('msg91', [
             'deprecated' => true,
             'info' => "<p>
-                    MSG91 SMS integration is one way messaging, means that your customers won't be able to reply to the SMS.
+                    A integração do SMS MSG91 é uma mensagem unilateral, o que significa que seus clientes não poderão responder ao SMS.
                 </p>
                 <hr class='hr-10'>",
             'name'    => 'MSG91',
