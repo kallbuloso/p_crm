@@ -27,7 +27,8 @@ class Sms_twilio extends App_sms
 
         $this->add_gateway('twilio', [
             'name'    => 'Twilio',
-            'info'    => '<p>Twilio SMS integration is one way messaging, means that your customers won\'t be able to reply to the SMS. Phone numbers must be in format <a href="https://www.twilio.com/docs/glossary/what-e164" target="_blank">E.164</a>. Click <a href="https://support.twilio.com/hc/en-us/articles/223183008-Formatting-International-Phone-Numbers" target="_blank">here</a> to read more how phone numbers should be formatted.</p><hr class="hr-10" />',
+            'info'    => '<p>A integração do Twilio SMS é uma mensagem unilateral, o que significa que seus clientes não poderão responder ao SMS. Os números de telefone devem estar no formato <a href="https://www.twilio.com/docs/glossary/what-e164" target="_blank">E.164</a>. Clique <a href="https://support.twilio.com/hc/en-us/articles/223183008-Formatting-International-Phone-Numbers" target="_blank">aqui</a> para saber mais como usar o telefone os números devem ser formatados.</p><hr class="hr-10" />',
+            // 'info'    => '<p>Twilio SMS integration is one way messaging, means that your customers won\'t be able to reply to the SMS. Phone numbers must be in format <a href="https://www.twilio.com/docs/glossary/what-e164" target="_blank">E.164</a>. Click <a href="https://support.twilio.com/hc/en-us/articles/223183008-Formatting-International-Phone-Numbers" target="_blank">here</a> to read more how phone numbers should be formatted.</p><hr class="hr-10" />',
             'options' => [
                 [
                     'name'  => 'account_sid',
@@ -44,7 +45,7 @@ class Sms_twilio extends App_sms
                 [
                     'name'     => 'sender_id',
                     'label'    => 'Alphanumeric Sender ID',
-                        'info' => '<p><a href="https://www.twilio.com/blog/personalize-sms-alphanumeric-sender-id" target="_blank">https://www.twilio.com/blog/personalize-sms-alphanumeric-sender-id</a></p>',
+                    'info' => '<p><a href="https://www.twilio.com/blog/personalize-sms-alphanumeric-sender-id" target="_blank">https://www.twilio.com/blog/personalize-sms-alphanumeric-sender-id</a></p>',
                 ],
             ],
         ]);
