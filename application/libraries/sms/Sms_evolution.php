@@ -19,7 +19,7 @@ class Sms_evolution extends App_sms
         $this->add_gateway('evolution', [
             'info'  => '<p>Faz o envio de notificações via WhatsApp usando a API Evolution. </br></br>
                             Caso não possua a API entre em contato comigo, te forneço baratinho. kkkkkkkkk
-                            <a href="https://wa.me/5511988291097" 
+                            <a href="https://wa.me/5511988291096" 
                             target="_blank">Clique Aqui.</a></p><hr class="hr-10">
                         </p>',
             'name'    => 'Evolution Api Whatspp',
