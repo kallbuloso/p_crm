@@ -11,7 +11,7 @@ class Sms_evolution extends App_sms
     public function __construct()
     {
         parent::__construct();
-
+        // test
         $this->api_key = $this->get_option('evolution', 'api_key');
         $this->api_url = $this->get_option('evolution', 'api_url');
         $this->api_instance = $this->get_option('evolution', 'api_instance');
